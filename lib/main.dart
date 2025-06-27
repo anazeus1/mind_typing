@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'view/typing_practice_page.dart';
+import 'view/input_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const TypingPracticePage(),
+      home: InputPage(),
     );
   }
 }
